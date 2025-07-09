@@ -1,0 +1,156 @@
+
+.bottom-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    width: 100%; 
+    background-color: #222831;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px 0;
+    z-index: 1000; 
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+}
+.bottom-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px; 
+    transition: all 0.3s ease; 
+}
+.bottom-menu a:hover {
+    font-size: 20px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+/* .search_bar { 
+    margin: 20px auto;
+    width: 100%;
+    max-width: 150px;
+    height: 40px; 
+    text-align: center; 
+    border-radius: 54px;
+}
+.search_bar input{
+    border: 2px solid black;
+    height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+} */
+.form_search {
+  margin: 0 auto; 
+  display: flex;
+  justify-content: center; 
+}
+
+.form_search {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px; 
+}
+
+.form_search form input {
+  text-align: center;
+  width: 100%; 
+  border-radius: 40px;
+   font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0; 
+}
+/* 
+.form_search form .submit {
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px auto;
+} */
+.login input{
+text-align: center;
+font-size: 20px;
+}
+.imgg img{
+  width: 60%;
+  height: 22em;
+  border-radius: 20px;
+  box-shadow: 4px 2px gray;
+   
+}
+.about {
+  font-size: clamp(0.5em, 2vw, 1em);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 5px auto;
+  text-shadow: 2px 2px gray;
+}
+.wel{
+  text-align: center;
+  margin: 10px auto;
+  color: aliceblue;
+  font-size: 40px;
+}
+.imggg img{
+  width: 50%;
+  border-radius: 20px;
+
+}
+.half img{
+  border-radius: 40px;
+}
+.ni {
+  width: 200px; 
+  margin: 0 auto;
+}
+.dont{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin: auto ;
+  position: relative;
+  top: 5px;
+  background-color: aliceblue;
+}
+.menuu{
+  text-align: center;
+  padding: 2px 2px 5px;
+}
+.menuu a{
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  
+  
+}
+.menuu ul li{
+  display: inline-block;
+  padding: 15px;
+  font-size: 25px;
+  
+}
+.menuu a:hover{
+  color: #222831;
+  font-size: 32px;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+.nav-buttons a{
+text-decoration: none;
+color: aliceblue;
+}
+.nav-buttons a:hover{
+color: black;
+}
+.mother_men{
+  width: 80%;
+  height: 400px;
+  background-color: antiquewhite;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nike Style Collection</title>
+<style>
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    line-height: 1.6;
+  }
+
+
+  header {
+    background-color: #000;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 3em;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    letter-spacing: 1px;
+  }
+
+
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+    gap: 20px;
+  }
+
+  .nav-buttons button {
+    background-color: antiquewhite;
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 12px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    color: #fff;
+  }
+
+  .nav-buttons button:hover {
+    background-color: #fff;
+    color: #111;
+  }
+
+
+  .images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .images-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+  }
+
+  .images-grid img:hover {
+    transform: scale(1.05);
+  }
+
+  .promo-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .promo-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+
+  .promo-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  footer {
+    background-color: #000;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  footer p {
+    font-size: 0.9em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Nike</h1>
+  <p>Just Do It</p>
+</header>
+<div class="nav-buttons">
+  <button><a href="men.html">Men</a></button>
+  <button><a href="women.html">Women</a></button>
+  <button><a href="kids.html">Kids</a></button>
+  <button><a href="jordan.html">Jordan</a></button>
+</div>
+
+<div class="images-grid">
+  <img src="shoes/jordan1.png" alt="Product 1" />
+  <img src="shoes/Nike-Air-Force-One-PNG-Transparent-Image.png" alt="Product 2" />
+  <img src="shoes/unnamed.png" alt="Product 3" />
+</div>
+
+<div class="promo-section">
+  <h2>Elevate Your Style</h2>
+  <p>Discover the latest sneakers, apparel, and accessories designed for champions. From running to lifestyle, Nike blends innovation with style to keep you ahead of the game.</p>
+</div>
+
+
+<footer>
+  <p>&copy; 2025 Nike. All Rights Reserved.</p>
+</footer>
+
+<div class="bottom-menu">
+  <a href="index.html">Home</a>
+  <a href="about us .html">About</a>
+  <a href="servises.html">Services</a>
+  <a href="login.html">Login</a>
+</div>
+</body>
+</html>
